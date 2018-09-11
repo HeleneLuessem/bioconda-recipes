@@ -1,4 +1,4 @@
-{% set version = "1.18.0" %}
+{% set version = "1.20.0" %}
 {% set name = "BiSeq" %}
 {% set bioc = "3.6" %}
 
@@ -9,7 +9,7 @@ source:
   url:
     - 'http://bioconductor.org/packages/{{ bioc }}/bioc/src/contrib/{{ name }}_{{ version }}.tar.gz'
     - 'https://depot.galaxyproject.org/software/{{ name }}/{{ name }}_{{ version }}_src_all.tar.gz'
-  sha256: df2a5e88e2a0b5df8bef882f7ab27cbfd16748736ee44d3a8ff60123eda4e708
+  sha256: b2c2794e56066315ef680cdc513797def0e92651cc1c722af9f6a8b884ca8de0
 build:
   number: 1
   rpaths:
